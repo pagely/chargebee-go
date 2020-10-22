@@ -1,8 +1,8 @@
 package couponcode
 
 import (
-	"github.com/chargebee/chargebee-go/filter"
-	couponCodeEnum "github.com/chargebee/chargebee-go/models/couponcode/enum"
+	"github.com/pagely/chargebee-go/filter"
+	couponCodeEnum "github.com/pagely/chargebee-go/models/couponcode/enum"
 )
 
 type CouponCode struct {

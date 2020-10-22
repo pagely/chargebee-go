@@ -4,9 +4,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/models/subscription"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/enum"
+	"github.com/pagely/chargebee-go/models/subscription"
 	"github.com/stretchr/testify/assert"
 )
 

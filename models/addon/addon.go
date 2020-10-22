@@ -3,9 +3,9 @@ package addon
 import (
 	"encoding/json"
 
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	addonEnum "github.com/chargebee/chargebee-go/models/addon/enum"
+	"github.com/pagely/chargebee-go/enum"
+	"github.com/pagely/chargebee-go/filter"
+	addonEnum "github.com/pagely/chargebee-go/models/addon/enum"
 )
 
 type Addon struct {

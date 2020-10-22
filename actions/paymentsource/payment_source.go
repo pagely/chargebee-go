@@ -3,8 +3,8 @@ package paymentsource
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/paymentsource"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/paymentsource"
 )
 
 func CreateUsingTempToken(params *paymentsource.CreateUsingTempTokenRequestParams) chargebee.RequestObj {

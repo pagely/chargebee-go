@@ -1,9 +1,9 @@
 package unbilledcharge
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	unbilledChargeEnum "github.com/chargebee/chargebee-go/models/unbilledcharge/enum"
+	"github.com/pagely/chargebee-go/enum"
+	"github.com/pagely/chargebee-go/filter"
+	unbilledChargeEnum "github.com/pagely/chargebee-go/models/unbilledcharge/enum"
 )
 
 type UnbilledCharge struct {

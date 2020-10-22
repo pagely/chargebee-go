@@ -3,8 +3,8 @@ package couponcode
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/couponcode"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/couponcode"
 )
 
 func Create(params *couponcode.CreateRequestParams) chargebee.RequestObj {

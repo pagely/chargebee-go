@@ -1,9 +1,9 @@
 package gift
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	giftEnum "github.com/chargebee/chargebee-go/models/gift/enum"
+	"github.com/pagely/chargebee-go/enum"
+	"github.com/pagely/chargebee-go/filter"
+	giftEnum "github.com/pagely/chargebee-go/models/gift/enum"
 )
 
 type Gift struct {

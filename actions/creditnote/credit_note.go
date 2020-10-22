@@ -3,8 +3,8 @@ package creditnote
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/creditnote"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/creditnote"
 )
 
 func Create(params *creditnote.CreateRequestParams) chargebee.RequestObj {

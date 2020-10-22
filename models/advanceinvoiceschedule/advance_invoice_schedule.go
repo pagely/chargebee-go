@@ -1,8 +1,8 @@
 package advanceinvoiceschedule
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	advanceInvoiceScheduleEnum "github.com/chargebee/chargebee-go/models/advanceinvoiceschedule/enum"
+	"github.com/pagely/chargebee-go/enum"
+	advanceInvoiceScheduleEnum "github.com/pagely/chargebee-go/models/advanceinvoiceschedule/enum"
 )
 
 type AdvanceInvoiceSchedule struct {

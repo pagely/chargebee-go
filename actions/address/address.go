@@ -3,8 +3,8 @@ package address
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/address"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/address"
 )
 
 func Retrieve(params *address.RetrieveRequestParams) chargebee.RequestObj {

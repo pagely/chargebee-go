@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/hostedpage"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/hostedpage"
 )
 
 func CheckoutNew(params *hostedpage.CheckoutNewRequestParams) chargebee.RequestObj {

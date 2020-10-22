@@ -3,8 +3,8 @@ package unbilledcharge
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/unbilledcharge"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/unbilledcharge"
 )
 
 func InvoiceUnbilledCharges(params *unbilledcharge.InvoiceUnbilledChargesRequestParams) chargebee.RequestObj {

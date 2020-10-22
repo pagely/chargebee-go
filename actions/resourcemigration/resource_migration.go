@@ -3,8 +3,8 @@ package resourcemigration
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/resourcemigration"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/resourcemigration"
 )
 
 func RetrieveLatest(params *resourcemigration.RetrieveLatestRequestParams) chargebee.RequestObj {

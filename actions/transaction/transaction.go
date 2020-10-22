@@ -3,8 +3,8 @@ package transaction
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/transaction"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/transaction"
 )
 
 func CreateAuthorization(params *transaction.CreateAuthorizationRequestParams) chargebee.RequestObj {

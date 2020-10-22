@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/event"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/event"
 )
 
 func List(params *event.ListRequestParams) chargebee.RequestObj {

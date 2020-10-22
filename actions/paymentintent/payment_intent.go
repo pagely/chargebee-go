@@ -3,8 +3,8 @@ package paymentintent
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/paymentintent"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/paymentintent"
 )
 
 func Create(params *paymentintent.CreateRequestParams) chargebee.RequestObj {

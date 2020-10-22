@@ -3,8 +3,8 @@ package sitemigrationdetail
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/sitemigrationdetail"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/sitemigrationdetail"
 )
 
 func List(params *sitemigrationdetail.ListRequestParams) chargebee.RequestObj {

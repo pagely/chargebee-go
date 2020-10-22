@@ -3,8 +3,8 @@ package plan
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/plan"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/plan"
 )
 
 func Create(params *plan.CreateRequestParams) chargebee.RequestObj {

@@ -1,8 +1,8 @@
 package token
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	tokenEnum "github.com/chargebee/chargebee-go/models/token/enum"
+	"github.com/pagely/chargebee-go/enum"
+	tokenEnum "github.com/pagely/chargebee-go/models/token/enum"
 )
 
 type Token struct {

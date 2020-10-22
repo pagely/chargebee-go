@@ -3,8 +3,8 @@ package customer
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/customer"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/customer"
 )
 
 func Create(params *customer.CreateRequestParams) chargebee.RequestObj {

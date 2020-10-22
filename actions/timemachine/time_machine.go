@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/timemachine"
-	timeMachineEnum "github.com/chargebee/chargebee-go/models/timemachine/enum"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/timemachine"
+	timeMachineEnum "github.com/pagely/chargebee-go/models/timemachine/enum"
 )
 
 func Retrieve(id string) chargebee.RequestObj {

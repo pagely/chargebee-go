@@ -3,8 +3,8 @@ package subscription
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/subscription"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/subscription"
 )
 
 func Create(params *subscription.CreateRequestParams) chargebee.RequestObj {

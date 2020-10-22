@@ -3,8 +3,8 @@ package order
 import (
 	"fmt"
 
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/order"
+	"github.com/pagely/chargebee-go"
+	"github.com/pagely/chargebee-go/models/order"
 )
 
 func Create(params *order.CreateRequestParams) chargebee.RequestObj {

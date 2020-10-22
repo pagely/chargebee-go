@@ -1,8 +1,8 @@
 package card
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	cardEnum "github.com/chargebee/chargebee-go/models/card/enum"
+	"github.com/pagely/chargebee-go/enum"
+	cardEnum "github.com/pagely/chargebee-go/models/card/enum"
 )
 
 type Card struct {

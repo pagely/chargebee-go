@@ -19,9 +19,9 @@ Use <b>go1.3 or newer</b>.
 ```go
 import (
   "fmt"
-  "github.com/chargebee/chargebee-go"
-  subscriptionAction "github.com/chargebee/chargebee-go/actions/subscription"
-  "github.com/chargebee/chargebee-go/models/subscription"
+  "github.com/pagely/chargebee-go"
+  subscriptionAction "github.com/pagely/chargebee-go/actions/subscription"
+  "github.com/pagely/chargebee-go/models/subscription"
 )
 
 func main() {
@@ -53,9 +53,9 @@ func main() {
 ```go
 import (
   "fmt"
-  "github.com/chargebee/chargebee-go"
-  subscriptionAction "github.com/chargebee/chargebee-go/actions/subscription"
-  "github.com/chargebee/chargebee-go/models/subscription"
+  "github.com/pagely/chargebee-go"
+  subscriptionAction "github.com/pagely/chargebee-go/actions/subscription"
+  "github.com/pagely/chargebee-go/models/subscription"
 )
 
 func main() {
@@ -117,10 +117,10 @@ To retrieve list of subscriptions :
 ```go
 import (
   "fmt"
-  "github.com/chargebee/chargebee-go"
-  subscriptionAction "github.com/chargebee/chargebee-go/actions/subscription"
-  "github.com/chargebee/chargebee-go/filter"
-  "github.com/chargebee/chargebee-go/models/subscription"
+  "github.com/pagely/chargebee-go"
+  subscriptionAction "github.com/pagely/chargebee-go/actions/subscription"
+  "github.com/pagely/chargebee-go/filter"
+  "github.com/pagely/chargebee-go/models/subscription"
 )
 
 func main() {
@@ -157,9 +157,9 @@ func main() {
 ```go
 import (
   "fmt"
-  "github.com/chargebee/chargebee-go"
-  subscriptionAction "github.com/chargebee/chargebee-go/actions/subscription"
-  "github.com/chargebee/chargebee-go/models/subscription"
+  "github.com/pagely/chargebee-go"
+  subscriptionAction "github.com/pagely/chargebee-go/actions/subscription"
+  "github.com/pagely/chargebee-go/models/subscription"
 )
 
 func main() {
